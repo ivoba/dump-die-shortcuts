@@ -1,0 +1,24 @@
+{
+    "name": "ivoba/dump-die-shortcuts",
+    "type": "functions",
+    "description": "Shortcut functions for symfony VarDumper component",
+    "keywords": ["dump", "debug", "dump-die", "shortcuts"],
+    "homepage": "https://github.com/ivoba/dump-die-shortcuts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Bathke",
+            "email": "ivo.bathke@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": ">=2.7",
+        "ivoba/dump-die": "^1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "files": [ "src/dump_die_shortcuts.php" ]
+    }
+}
